@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lemon Clicker Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lemon Clicker Game</h1>
+    <div class="difficulty">
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+    <div class="game">
+      <p id="score">Score: 0</p>
+      <button id="lemon-button">
+        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081987.png" alt="Lemon" width="100">
+      </button>
+      <p id="multiplier">Multiplier: 1x</p>
+      <button id="upgrade-button">Upgrade (Cost: 10)</button>
+      <button id="restart-button">Restart Game</button>
+      <button id="music-button">Toggle Music</button>
+    </div>
+  </div>
+  <audio id="click-sound" src="sounds/click.mp3"></audio>
+  <audio id="background-music" src="sounds/elevator-music.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>

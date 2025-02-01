@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffcc00;
+}
+
+.difficulty {
+  margin-bottom: 1rem;
+}
+
+.difficulty label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+#difficulty {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #ffcc00;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  outline: none;
+}
+
+.game {
+  margin-top: 1rem;
+}
+
+#score {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#lemon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+#lemon-button img {
+  transition: transform 0.1s;
+}
+
+#lemon-button:active img {
+  transform: scale(0.95);
+}
+
+#multiplier {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#upgrade-button, #restart-button, #music-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#upgrade-button:hover, #restart-button:hover, #music-button:hover {
+  background-color: #e6b800;
+}
+
+#music-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+#music-button:hover {
+  background-color: #45a049;
+}
